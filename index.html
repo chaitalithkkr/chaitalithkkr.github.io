@@ -1,46 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Chaitali Thakkar | Portfolio</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Chaitali Thakkar — Data & Product Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/favicon.png" />
 </head>
 <body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <a href="index.html" class="brand-link">
+          <span class="brand-name">Chaitali Thakkar</span>
+        </a>
+        <span class="brand-sub">Data • Product • Story</span>
+      </div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="experience.html">Experience</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-<header>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="experience.html">Experience</a>
-    <a href="projects.html">Projects</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-</header>
+  <main>
+    <section class="hero container">
+      <div class="hero-left">
+        <h1 class="hero-title">Turning data into direction — and product into purpose.</h1>
+        <p class="hero-sub">I’m Chaitali Rajulkumar Thakkar — data scientist & product-minded analyst building actionable, user-centered solutions across healthcare, retail, and consumer products.</p>
+        <div class="cta-row">
+          <a class="button primary" href="projects.html">View Projects</a>
+          <a class="button ghost" href="experience.html">See Experience</a>
+        </div>
+        <ul class="quick-links">
+          <li><strong>Email:</strong> <a href="mailto:chaitalit268@gmail.com">chaitalit268@gmail.com</a></li>
+          <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/chaitali-thakkar/" target="_blank" rel="noreferrer">linkedin.com/in/chaitali-thakkar</a></li>
+          <li><strong>GitHub:</strong> <a href="https://github.com/chaitalithkkr" target="_blank" rel="noreferrer">github.com/chaitalithkkr</a></li>
+        </ul>
+      </div>
+      <div class="hero-right">
+        <!-- Replace with your photo if you add assets/photo.jpg -->
+        <div class="hero-card">
+          <img src="assets/photo-placeholder.png" alt="Chaitali Thakkar" class="hero-photo" />
+          <div class="hero-meta">
+            <p class="meta-name">Chaitali Rajulkumar Thakkar</p>
+            <p class="meta-role">Data Scientist • Product Analyst</p>
+            <p class="meta-location">Buffalo, NY</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<section>
-  <h1>Hi, I’m Chaitali Thakkar 👋</h1>
-  <p>Data Scientist | Analyst | Product-Focused Thinker</p>
-  <p>Turning complex data into actionable insights and meaningful experiences.</p>
-  <a href="projects.html" class="button">View Projects</a>
-</section>
+    <section class="featured container">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="card-grid">
+        <article class="card">
+          <h3>Wiki Q/A Chatbot</h3>
+          <p>Hybrid chatbot combining BlenderBot with zero-shot intent classification; indexed 5,000+ Wikipedia articles and improved relevance by 28% (MRR=0.71, MAP=0.68).</p>
+          <a class="card-link" href="projects.html#wiki-qa">Learn more</a>
+        </article>
 
-<section>
-  <h2>Featured Projects</h2>
-  <div class="project">
-    <h3>Wiki Q/A Chatbot</h3>
-    <p>Hybrid chatbot using BlenderBot + zero-shot intent classification; indexed 5,000+ Wikipedia articles; relevance improved by 28%.</p>
-  </div>
-  <div class="project">
-    <h3>Fashion Recommender</h3>
-    <p>Integrated images and tabular data to recommend outfits and optimize pricing strategy using PySpark & ML.</p>
-  </div>
-</section>
+        <article class="card">
+          <h3>Fashion Recommender System</h3>
+          <p>Personalized recommender & pricing experiments on H&amp;M dataset (50K+ transactions). MAP@12 based purchase prediction and image+tabular multimodal pipeline.</p>
+          <a class="card-link" href="projects.html#fashion">Learn more</a>
+        </article>
 
-<footer>
-&copy; 2025 Chaitali Thakkar. All rights reserved.
-</footer>
+        <article class="card">
+          <h3>Inpatient Cost Modeling</h3>
+          <p>GLM, SVM, and Random Forest models (R² ≈ 0.64) for inpatient cost trend analysis with Power BI dashboards for decision-making.</p>
+          <a class="card-link" href="projects.html#inpatient">Learn more</a>
+        </article>
+      </div>
+    </section>
+  </main>
 
-<script src="scripts.js"></script>
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Chaitali Rajulkumar Thakkar — Data &amp; Product.</p>
+      <p class="footer-small">Designed with a playful & elegant palette — lavender & coral.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
